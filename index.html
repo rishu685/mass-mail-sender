@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mass-Mail Dispatcher</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><h1>Mass-Mail Dispatcher</h1></li>
+    </ul>
+  </nav>
+
+  <div class="bg">
+    <div class="container">
+      <h2 id="head">Upload Email List (.csv)</h2>
+      <input type="file" id="emailListUpload" accept=".csv" />
+
+      <form onsubmit="sendEmail(); this.reset(); return false;" class="mailInfo">
+        <h2 id="box-heading">WRITE YOUR MAIL HERE</h2>
+        <p><input type="email" id="from" placeholder="From (Email ID)" required></p>
+        <p><input type="text" id="subject" placeholder="Subject" required></p>
+        <p><textarea id="msg" rows="10" cols="40" placeholder="Email Body" required></textarea></p>
+
+        <h2 id="head">Attachment</h2>
+        <input type="file" id="attachmentUpload" accept=".txt,.pdf,.jpeg" />
+
+        <p><button type="submit">Send</button></p>
+      </form>
+
+      <div class="tables">
+        <div class="valTab">
+          <table id="val">
+            <tr>
+              <td><h2>Valid Emails: <span id="valcount">0</span></h2></td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="invalTab">
+          <table id="inval">
+            <tr>
+              <td><h2>Invalid Emails: <span id="invalCount">0</span></h2></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-basic">
+    ©️ 2025 Mass-Mail Dispatcher
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
