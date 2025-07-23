@@ -27,3 +27,5 @@ mass-mail-dispatcher/
 email@example.com
 second@example.com
 invalid-email
+
+live demo: https://688115a96e3718613c711317--reliable-mochi-834a46.netlify.app/
