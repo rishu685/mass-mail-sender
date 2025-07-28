@@ -1,6 +1,6 @@
 # 📧 Mass-Mail Dispatcher
 
-A lightweight, browser-based bulk email sender built with HTML, CSS, and JavaScript. Easily upload a CSV of emails, compose your message, attach files, and send emails in bulk using [SMTP.js](https://smtpjs.com/).
+A lightweight, browser-based bulk email sender built with HTML, CSS, and JavaScript. Easily upload a CSV of emails, compose your message, attach files, and send emails in bulk using [SMTP.js](https://smtpjs.com/)...
 
 ---
 
