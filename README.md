@@ -4,7 +4,7 @@ A lightweight, browser-based bulk email sender built with HTML, CSS, and JavaScr
 
 ---
 
-## 🚀 Features
+# 🚀 Features
 
 - 📥 Upload CSV file containing email addresses
 - 📧 Validate and display valid/invalid emails
