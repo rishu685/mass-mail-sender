@@ -16,9 +16,9 @@ A lightweight, browser-based bulk email sender built with HTML, CSS, and JavaScr
 
 ## 📂 Folder Structure
 mass-mail-dispatcher/
-├── index.html         # Main web interface
-├── main.js            # Email parsing and sending logic
-├── style.css          # UI styling
+├── index.html         # Main web interface..
+├── main.js            # Email parsing and sending logic..
+├── style.css          # UI styling,,
 
 ---
 
