@@ -76,4 +76,129 @@ button:hover {
   font-size: 0.9rem;
   color: #ccc;
   background: rgba(0, 0, 0, 0.4);
+} 
+.fade-in {
+  animation: fadeIn 0.4s ease forwards;
+  opacity: 0;
 }
+
+@keyframes fadeIn {
+  to { opacity: 1; }
+}
+
+.valid-row {
+  background-color: #e6ffed;
+  transition: background 0.3s;
+}
+
+.invalid-row {
+  background-color: #ffe6e6;
+  transition: background 0.3s;
+}
+
+.send-btn:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+/* 
+
+
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #eef2f3, #8e9eab);
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  max-width: 600px;
+  width: 100%;
+  animation: fadeIn 0.8s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="file"],
+textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: border-color 0.3s;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.send-btn {
+  background: #007bff;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  transition: background 0.3s;
+}
+
+.send-btn:hover {
+  background: #0056b3;
+}
+
+.stats {
+  margin-top: 20px;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+table#val {
+  margin-top: 20px;
+  width: 100%;
+  border-collapse: collapse;
+  animation: slideUp 0.5s ease;
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+table#val td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+} */
